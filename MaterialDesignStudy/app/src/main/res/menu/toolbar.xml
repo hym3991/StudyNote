@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/atm"
+        android:icon="@drawable/atm"
+        android:title="ate"
+        app:showAsAction="always"
+        />
+    <item
+       android:id="@+id/skip"
+       android:icon="@drawable/skip"
+       android:title="skip"
+       app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/phone"
+        android:icon="@drawable/phone"
+        android:title="phone"
+        app:showAsAction="never"
+        />
+
+</menu>
